@@ -87,6 +87,7 @@ alphabet_war("tz")        #=>  "ts" => "Left side wins!"
 
 Explanation:
 Letter t is a pretty letter belonging to the left side. Pretty letters convert hostile letters to friendly letters with the same power. Z is a hostile letter with power 1. T will convert it to s a friendly letter with the same power.
+
 Final Test 20
 Given two positive integers m (width) and n (height), fill a two-dimensional list (or array) of size m-by-n in the following way:
 All the elements in the first and last row and column are 1.
