@@ -1,0 +1,15 @@
+a=input("enter a string--->")
+i=0
+j=0
+while i<len(a):
+    current=a[i]
+    coun=0
+    while j<len(a):
+        if current == a[j]:
+            coun+=1
+            j+=1
+        else: 
+            break
+        i+=1  
+    print(f"({coun},{current})",end=" ")
+
